@@ -1,8 +1,6 @@
 public class Main {
-
-	public static void main(String[] args) {
 /*
-2. 9단계 - 공개 
+2. 9단계
 
 배열을 이용하여 간단한 극장 예약 시스템을 작성한다.
 좌석은 10개이다.
@@ -10,6 +8,7 @@ public class Main {
 
 예약이 끝난 좌석은 1로, 예약이 안된 좌석은 0으로 나타낸다.
 */
+	public static void main(String[] args) {
 
 		new Driver(new Reservation(new Seats())).run();
 		
